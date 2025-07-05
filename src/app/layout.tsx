@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title: 'Fantasy Football App – Play, Analyze, Win!',
     description:
       'Build your dream fantasy football team, analyze player stats, adapt tactics, and compete for real prizes. Join the best fantasy leagues: Premier League, Champions League, Super Lig, and more!',
-    url: 'https://your-app-domain.com',
+    url: 'https://footboll-sandy.vercel.app/',
     siteName: 'Fantasy Football App',
     images: [
       {
@@ -64,7 +64,9 @@ export const metadata: Metadata = {
     apple: '/apple-touch-icon.png',
   },
   themeColor: '#23244a',
-  
+  alternates: {
+    canonical: 'https://footboll-sandy.vercel.app/',
+  },
 };
 
 export default function RootLayout({
