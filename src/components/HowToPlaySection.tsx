@@ -65,7 +65,7 @@ const Block = styled.div`
   flex: 1;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: end;
   gap: 32px;
   @media (max-width: 900px) {
     flex-direction: column;
@@ -78,7 +78,7 @@ const BlockReverse = styled.div`
   flex: 1;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: end;
   gap: 32px;
   @media (max-width: 900px) {
     flex-direction: column-reverse;
@@ -187,7 +187,6 @@ const StepButton = styled.a`
 
 const BannerImg = styled.img`
   width: 100%;
-  max-width: 600px;
   margin: 32px auto 0 auto;
   display: block;
   border-radius: 16px;
