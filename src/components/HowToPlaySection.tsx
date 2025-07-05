@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "@emotion/styled";
+import React from 'react';
+import styled from '@emotion/styled';
 
 const Section = styled.section`
   width: 100%;
@@ -86,7 +86,6 @@ const BlockReverse = styled.div`
     gap: 16px;
     text-align: center;
   }
-  
 `;
 
 const BlockContent = styled.div`
@@ -101,18 +100,14 @@ const BlockContent = styled.div`
 `;
 
 const BlockTitle = styled.div`
-  color: var(--White, #FFF);
-font-family: Montserrat;
-font-size: 26px;
-font-style: normal;
-font-weight: 600;
-line-height: 130%; /* 33.8px */
-border-bottom: 1px  solid #2C90F7 ;
+  color: var(--White, #fff);
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 33.8px */
+  border-bottom: 1px solid #2c90f7;
 `;
-
-
-
-
 
 const BlockDesc = styled.div`
   color: #cfd8dc;
@@ -132,7 +127,7 @@ const StepRow = styled.div`
   display: flex;
   align-items: center;
   gap: 18px;
-  background: rgba(255,255,255,0.01);
+  background: rgba(255, 255, 255, 0.01);
   border-radius: 12px;
   padding: 22px;
   @media (max-width: 600px) {
@@ -241,26 +236,32 @@ export default function HowToPlaySection() {
             <Block>
               <BallImg src="/boll.png" alt="Ball" />
               <BlockContent>
-                <BlockTitle>
-                  Team formation
-                </BlockTitle>
+                <BlockTitle>Team formation</BlockTitle>
                 <BlockDesc>
-                  Choose 11 players, distributing the budget between stars and promising talents. It&apos;s important to find a balance between top-scorers and underrated players when creating a playing XI or points. Don&apos;t forget super substitutes — they will help in case of injuries or disqualifications of the main players.
+                  Choose 11 players, distributing the budget between stars and promising talents.
+                  It&apos;s important to find a balance between top-scorers and underrated players
+                  when creating a playing XI or points. Don&apos;t forget super substitutes — they
+                  will help in case of injuries or disqualifications of the main players.
                 </BlockDesc>
               </BlockContent>
             </Block>
           </BlockRow>
           <BlockRow>
-            <BlockReverse style={{justifyContent: 'flex-end'}}>
+            <BlockReverse style={{ justifyContent: 'flex-end' }}>
               <BlockContent>
-                <BlockTitle>
-                  Scoring
-                </BlockTitle>
+                <BlockTitle>Scoring</BlockTitle>
                 <BlockDesc>
-                  Gain points for goals, assists, clean sheets, and other player performance in real matches. Points are also reduced for goals conceded, cards, and missed penalties. Interactions, news and events influence all. The main aim: more points for conceded goals, receiving cards, or missing penalties.
+                  Gain points for goals, assists, clean sheets, and other player performance in real
+                  matches. Points are also reduced for goals conceded, cards, and missed penalties.
+                  Interactions, news and events influence all. The main aim: more points for
+                  conceded goals, receiving cards, or missing penalties.
                 </BlockDesc>
               </BlockContent>
-              <BallImgBottom src="/boll.png" alt="Ball" style={{alignSelf: 'flex-end', marginTop: '24px'}} />
+              <BallImgBottom
+                src="/boll.png"
+                alt="Ball"
+                style={{ alignSelf: 'flex-end', marginTop: '24px' }}
+              />
             </BlockReverse>
           </BlockRow>
         </MainRow>
@@ -288,4 +289,4 @@ export default function HowToPlaySection() {
       </Card>
     </Section>
   );
-} 
+}

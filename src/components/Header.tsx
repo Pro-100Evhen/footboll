@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import React, { useState } from "react";
-import styled from "@emotion/styled";
+import React, { useState } from 'react';
+import styled from '@emotion/styled';
 
 const HeaderBg = styled.div`
   width: 100%;
@@ -111,9 +111,7 @@ export default function Header() {
     <HeaderBg>
       <HeaderContainer>
         <HeaderContent>
-          <Burger onClick={() => setOpen((v) => !v)}>
-            &#9776;
-          </Burger>
+          <Burger onClick={() => setOpen((v) => !v)}>&#9776;</Burger>
           <Logo>
             <svg
               xmlns="http://www.w3.org/2000/svg"

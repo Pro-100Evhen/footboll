@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "@emotion/styled";
+import React from 'react';
+import styled from '@emotion/styled';
 
 const Section = styled.section`
   width: 100%;
@@ -86,7 +86,6 @@ const BlockReverse = styled.div`
     gap: 16px;
     text-align: center;
   }
-  
 `;
 
 const BlockContent = styled.div`
@@ -101,16 +100,16 @@ const BlockContent = styled.div`
 `;
 
 const BlockTitle = styled.div`
-  color: var(--White, #FFF);
-font-family: Montserrat;
-font-size: 26px;
-font-style: normal;
-font-weight: 600;
-line-height: 130%; /* 33.8px */
-border-bottom: 1px  solid #2C90F7 ;
-@media (max-width: 797px){
-  text-align: center;
-}
+  color: var(--White, #fff);
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 33.8px */
+  border-bottom: 1px solid #2c90f7;
+  @media (max-width: 797px) {
+    text-align: center;
+  }
 `;
 
 const BlockDesc = styled.div`
@@ -118,8 +117,6 @@ const BlockDesc = styled.div`
   font-size: 1.05rem;
   line-height: 1.6;
 `;
-
-
 
 const BannerImg = styled.img`
   width: 100%;
@@ -169,7 +166,7 @@ const BallImgBottom = styled.img`
 const TitleUnderline = styled.div`
   width: 120px;
   height: 3px;
-  background: #2C90F7;
+  background: #2c90f7;
   border-radius: 2px;
   margin: 0 auto 32px auto;
 `;
@@ -202,7 +199,9 @@ const LeagueCard = styled.div`
   align-items: center;
   text-align: center;
   position: relative;
-  transition: box-shadow 0.2s, transform 0.2s;
+  transition:
+    box-shadow 0.2s,
+    transform 0.2s;
   &:hover {
     box-shadow: 0 8px 40px #0005;
     transform: translateY(-4px) scale(1.03);
@@ -267,7 +266,7 @@ const SubText = styled.div`
 const SubUnderline = styled.div`
   width: 120px;
   height: 3px;
-  background: #2C90F7;
+  background: #2c90f7;
   border-radius: 1px;
   margin: 12px auto 0 auto;
 `;
@@ -289,38 +288,46 @@ export default function StrategySection() {
     <Section>
       <Card>
         <Title>Basic strategies</Title>
-        <Subtitle>How to succeed in fantasy football? Plan, analyze, and be one step ahead of your opponents.</Subtitle>
+        <Subtitle>
+          How to succeed in fantasy football? Plan, analyze, and be one step ahead of your
+          opponents.
+        </Subtitle>
         <MainRow>
           <BlockRow>
             <Block>
               <BallImg src="/frame.png" alt="Ball" />
               <BlockContent>
-                <BlockTitle>
-                Lineup balance
-                </BlockTitle>
+                <BlockTitle>Lineup balance</BlockTitle>
                 <BlockDesc>
-                It is important to combine top stars and promising players. Star players can bring steady points, but they are expensive, so it is worth complementing them with underrated players who can surprise with their performance. 
+                  It is important to combine top stars and promising players. Star players can bring
+                  steady points, but they are expensive, so it is worth complementing them with
+                  underrated players who can surprise with their performance.
                 </BlockDesc>
               </BlockContent>
             </Block>
           </BlockRow>
           <BlockRow>
-            <BlockReverse style={{justifyContent: 'flex-end'}}>
+            <BlockReverse style={{ justifyContent: 'flex-end' }}>
               <BlockContent>
-                <BlockTitle>
-                Transfers and captain
-                </BlockTitle>
+                <BlockTitle>Transfers and captain</BlockTitle>
                 <BlockDesc>
-                Use substitutions wisely and choose your captain strategically. Keep track of players&apos; form, injuries, suspensions, and changes in team lineups on a weekly basis. Don&apos;t keep players who have lost game practice in the lineup. 
+                  Use substitutions wisely and choose your captain strategically. Keep track of
+                  players&apos; form, injuries, suspensions, and changes in team lineups on a weekly
+                  basis. Don&apos;t keep players who have lost game practice in the lineup.
                 </BlockDesc>
               </BlockContent>
-              <BallImgBottom src="/frame.png" alt="Ball" style={{alignSelf: 'flex-end', marginTop: '24px'}} />
+              <BallImgBottom
+                src="/frame.png"
+                alt="Ball"
+                style={{ alignSelf: 'flex-end', marginTop: '24px' }}
+              />
             </BlockReverse>
           </BlockRow>
         </MainRow>
 
-
-        <BlockTitle style={{borderBottom: "none", paddingBottom: "12px"}}>The best leagues for fantasy football</BlockTitle>
+        <BlockTitle style={{ borderBottom: 'none', paddingBottom: '12px' }}>
+          The best leagues for fantasy football
+        </BlockTitle>
         <TitleUnderline />
         <LeaguesRow>
           <League
@@ -342,13 +349,13 @@ export default function StrategySection() {
           />
         </LeaguesRow>
         <SubText>
-          If you like sports, pay attention to fantasy cricket - this is <br ></br> another way to test your analytical skills.
+          If you like sports, pay attention to fantasy cricket - this is <br></br> another way to
+          test your analytical skills.
           <SubUnderline />
         </SubText>
-        
+
         <BannerImg src="/phone.png" alt="Banner" />
       </Card>
-      
     </Section>
   );
-} 
+}

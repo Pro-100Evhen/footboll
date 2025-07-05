@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "@emotion/styled";
+import React from 'react';
+import styled from '@emotion/styled';
 
 const Section = styled.section`
   width: 100%;
@@ -38,18 +38,18 @@ const Title = styled.h1`
   color: #fff;
   margin-bottom: 12px;
   @media (max-width: 797px) {
-    display: none
+    display: none;
   }
 `;
 const TitleMob = styled.h1`
-  color: #FFF;
+  color: #fff;
   font-family: Montserrat;
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
   @media (min-width: 797px) {
-    display: none
+    display: none;
   }
 `;
 
@@ -58,15 +58,15 @@ const Description = styled.p`
   font-size: 1.1rem;
   margin-bottom: 16px;
   @media (max-width: 797px) {
-    display: none
+    display: none;
   }
 `;
 
 const Button = styled.a`
   display: block;
   width: 212px;
-  background: linear-gradient(180deg, #885DF1 0%, #6610F2 100%);;
-  color: #FFF;
+  background: linear-gradient(180deg, #885df1 0%, #6610f2 100%);
+  color: #fff;
   font-family: Montserrat;
   font-size: 15px;
   font-style: normal;
@@ -81,7 +81,7 @@ const Button = styled.a`
     background: linear-gradient(90deg, #f357a8 0%, #7b2ff2 100%);
   }
   @media (max-width: 797px) {
-    display: none
+    display: none;
   }
 `;
 
@@ -105,7 +105,8 @@ export default function HeroSection() {
           <Title>What is fantasy football?</Title>
           <TitleMob>Welcome to Fantasy Arena - the best place for fantasy sports</TitleMob>
           <Description>
-            Fantasy football opens up a whole world of fantasy football to your game. Join and feel football drama, show performance, meet peers, win fantasy, strategize your roster!
+            Fantasy football opens up a whole world of fantasy football to your game. Join and feel
+            football drama, show performance, meet peers, win fantasy, strategize your roster!
           </Description>
           <Button href="#">Sign up in Whatsapp</Button>
         </Info>
@@ -115,4 +116,4 @@ export default function HeroSection() {
       </Grid>
     </Section>
   );
-} 
+}
