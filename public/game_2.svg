@@ -1,0 +1,25 @@
+<svg width="80" height="85" viewBox="0 0 80 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="54" cy="16.5" r="16.5" fill="url(#paint0_linear_4001_790)"/>
+<circle cx="54.5" cy="62.7588" r="12" fill="#FC4C4F"/>
+<foreignObject x="-19.5" y="-14" width="119" height="119"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(10px);clip-path:url(#bgblur_0_4001_790_clip_path);height:100%;width:100%"></div></foreignObject><g filter="url(#filter0_i_4001_790)" data-figma-bg-blur-radius="20">
+<circle cx="40" cy="45.5" r="39.5" fill="white" fill-opacity="0.04"/>
+</g>
+<path d="M40.9583 35.2501H37.8749V32.1667H40.9583V35.2501ZM47.1249 32.1667H44.0416V35.2501H47.1249V32.1667ZM37.8749 47.5834H40.9583V44.5001H37.8749V47.5834ZM53.2916 41.4167V38.3334H50.2083V41.4167H53.2916ZM53.2916 47.5834V44.5001H50.2083V47.5834H53.2916ZM44.0416 47.5834H47.1249V44.5001H44.0416V47.5834ZM53.2916 32.1667H50.2083V35.2501H53.2916V32.1667ZM44.0416 38.3334V35.2501H40.9583V38.3334H44.0416ZM34.7916 41.4167V38.3334H37.8749V35.2501H34.7916V32.1667H31.7083V56.8334H34.7916V44.5001H37.8749V41.4167H34.7916ZM47.1249 44.5001H50.2083V41.4167H47.1249V44.5001ZM40.9583 41.4167V44.5001H44.0416V41.4167H40.9583ZM37.8749 38.3334V41.4167H40.9583V38.3334H37.8749ZM44.0416 41.4167H47.1249V38.3334H44.0416V41.4167ZM47.1249 35.2501V38.3334H50.2083V35.2501H47.1249Z" fill="white"/>
+<defs>
+<filter id="filter0_i_4001_790" x="-19.5" y="-14" width="119" height="119" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="1"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.9375 0 0 0 0 0.910156 0 0 0 0 0.910156 0 0 0 0.6 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_4001_790"/>
+</filter>
+<clipPath id="bgblur_0_4001_790_clip_path" transform="translate(19.5 14)"><circle cx="40" cy="45.5" r="39.5"/>
+</clipPath><linearGradient id="paint0_linear_4001_790" x1="62.1765" y1="41.0397" x2="65.6074" y2="-5.77834" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2C90F7"/>
+<stop offset="1" stop-color="#05C0CC"/>
+</linearGradient>
+</defs>
+</svg>

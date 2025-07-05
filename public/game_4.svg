@@ -1,0 +1,25 @@
+<svg width="80" height="85" viewBox="0 0 80 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="54" cy="16.5" r="16.5" fill="url(#paint0_linear_4001_801)"/>
+<circle cx="54.5" cy="62.7588" r="12" fill="#FC4C4F"/>
+<foreignObject x="-19.5" y="-14" width="119" height="119"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(10px);clip-path:url(#bgblur_0_4001_801_clip_path);height:100%;width:100%"></div></foreignObject><g filter="url(#filter0_i_4001_801)" data-figma-bg-blur-radius="20">
+<circle cx="40" cy="45.5" r="39.5" fill="white" fill-opacity="0.04"/>
+</g>
+<path d="M46.4688 28.4851C46.0781 30.0093 45.6953 31.5078 45.3047 32.9882C41.7656 33.5562 38.2344 33.557 34.6953 32.9882C34.3047 31.5078 33.9219 30.0093 33.5312 28.4851C37.8203 30.2492 42.1797 30.2492 46.4688 28.4851ZM47.8203 28.8437L50.5078 32.4335C49.4141 39.9531 47.3828 48.3828 44.4531 56.1015C43.6172 55.1328 42.4844 54.4375 41.1875 54.1718C43.3984 45.4765 45.6094 37.5859 47.8203 28.8437ZM32.1797 28.8437C34.3906 37.5859 36.6016 45.4765 38.8125 54.1718C37.5156 54.4375 36.3828 55.1328 35.5469 56.1015C32.6172 48.3828 30.5859 39.9531 29.4922 32.4335L32.1797 28.8437ZM40 55.4531C42.4688 55.4531 44.4531 57.4375 44.4531 59.9062C44.4531 62.375 42.4688 64.3593 40 64.3593C37.5312 64.3593 35.5469 62.375 35.5469 59.9062C35.5469 57.4375 37.5312 55.4531 40 55.4531Z" fill="white"/>
+<defs>
+<filter id="filter0_i_4001_801" x="-19.5" y="-14" width="119" height="119" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="1"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.9375 0 0 0 0 0.910156 0 0 0 0 0.910156 0 0 0 0.6 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_4001_801"/>
+</filter>
+<clipPath id="bgblur_0_4001_801_clip_path" transform="translate(19.5 14)"><circle cx="40" cy="45.5" r="39.5"/>
+</clipPath><linearGradient id="paint0_linear_4001_801" x1="62.1765" y1="41.0397" x2="65.6074" y2="-5.77834" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2C90F7"/>
+<stop offset="1" stop-color="#05C0CC"/>
+</linearGradient>
+</defs>
+</svg>
